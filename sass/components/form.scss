@@ -1,6 +1,10 @@
 .button {
   font-weight: 700;
 }
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
 .buttonform {
   height: 600px;
   background-repeat: no-repeat;
