@@ -11,12 +11,13 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-.header__name-blue {
-  color: var(--blue-color);
-}
-.header__name-black {
-  color: var(--black-color);
+
+  &__name-blue {
+    color: var(--blue-color);
+  }
+  &__name-black {
+    color: var(--black-color);
+  }
 }
 
 a {

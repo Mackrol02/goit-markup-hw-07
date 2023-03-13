@@ -13,12 +13,13 @@ footer {
 .footer__name {
   margin-bottom: 9px;
   padding-top: 60px;
-}
-.footer__name-blue {
-  color: var(--blue-color);
-}
-.footer__name-white {
-  color: var(--whitestudio-color);
+
+  &__name-blue {
+    color: var(--blue-color);
+  }
+  &__name-white {
+    color: var(--whitestudio-color);
+  }
 }
 
 .size {
@@ -102,41 +103,43 @@ footer {
 
 .form {
   color: var(--color-footer-email-input);
-}
-.form__footer {
-  margin-top: 92px;
-  margin-left: 30px;
-  font-size: 14px;
-  font-weight: 700;
+
+  &__footer {
+    margin-top: 92px;
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: 700;
+  }
 }
 .input {
   margin-top: 20px;
-}
-.input__email {
-  width: 358px;
-  height: 50px;
-  background-color: var(--color-input-footer);
-  border: 1px solid rgba(255, 255, 255, 0.3);
 
-  .input__email:active {
+  &__email {
+    width: 358px;
+    height: 50px;
+    background-color: var(--color-input-footer);
     border: 1px solid rgba(255, 255, 255, 0.3);
+
+    &__email:active {
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
   }
-}
-.input__button {
-  color: var(--color-footer-email-input);
-  background-color: var(--color-bottom-footer);
-  border: none;
-  border-radius: 4px;
-  width: 200px;
-  height: 50px;
-  font-size: 16px;
-  margin-left: 10px;
-}
-.input__span {
-  margin-left: -45px;
-}
-.input__send {
-  position: absolute;
-  margin-left: 24px;
-  transform: translateY(-10%);
+  &__button {
+    color: var(--color-footer-email-input);
+    background-color: var(--color-bottom-footer);
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  &__span {
+    margin-left: -45px;
+  }
+  &__send {
+    position: absolute;
+    margin-left: 24px;
+    transform: translateY(-10%);
+  }
 }
