@@ -14,10 +14,10 @@ footer {
   margin-bottom: 9px;
   padding-top: 60px;
 
-  &__name-blue {
+  .footer__name-blue {
     color: var(--blue-color);
   }
-  &__name-white {
+  .footer__name-white {
     color: var(--whitestudio-color);
   }
 }

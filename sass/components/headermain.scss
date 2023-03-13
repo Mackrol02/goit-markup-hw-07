@@ -16,14 +16,14 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
-  &__name-blue {
-    color: var(--blue-color);
-  }
-  &__name-black {
-    color: var(--black-color);
-  }
 }
+.header__name-blue {
+  color: var(--blue-color);
+}
+.header__name-black {
+  color: var(--black-color);
+}
+
 a {
   text-decoration: none;
 }
