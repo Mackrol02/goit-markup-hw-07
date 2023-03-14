@@ -171,7 +171,7 @@ textarea {
   display: block;
   position: relative;
   cursor: pointer;
-  margin-left: 10px;
+  margin-left: 20px;
 
   &__input {
     position: absolute;
@@ -180,14 +180,22 @@ textarea {
     height: 16px;
     width: 15px;
     margin-top: 1px;
-    margin-left: -30px;
+    margin-left: -10px;
   }
   &__icon {
     position: absolute;
     top: 0;
     left: 0;
     visibility: hidden;
-    transform: translateX(-55%) translateY(5%);
+    transform: translateX(-65%) translateY(5%);
+  }
+  &__span {
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 9px;
+  }
+  &__span-color {
+    color: var(--color-bottom-footer);
   }
 }
 .checkbox__input:checked ~ .checkbox__icon {
