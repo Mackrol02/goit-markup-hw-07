@@ -1,25 +1,24 @@
 footer {
   background: var(--footercolor);
-  display: flex;
   height: 252px;
 }
-.width__page {
+.footercen {
   margin: auto;
   width: 1200px;
-}
-.box__flex {
   display: flex;
 }
 .footer__name {
   margin-bottom: 9px;
   padding-top: 60px;
+  font-size: 26px;
+  font-weight: 700;
+}
 
-  .footer__name-blue {
-    color: var(--blue-color);
-  }
-  .footer__name-white {
-    color: var(--whitestudio-color);
-  }
+.footer__name-blue {
+  color: var(--blue-color);
+}
+.footer__name-white {
+  color: var(--whitestudio-color);
 }
 
 .size {

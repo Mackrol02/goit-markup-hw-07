@@ -1,20 +1,16 @@
-.container {
-  display: flex;
-  justify-content: space-evenly;
-}
-.width__page {
-  margin: auto;
-  width: 1200px;
-}
-
 .advantages {
   margin-top: 50px;
-}
-.advantages__feature {
-  display: inline-block;
-}
-.advantages__feature2 {
-  justify-content: space-around;
+  margin: auto;
+  width: 1200px;
+  display: flex;
+  justify-content: space-evenly;
+
+  &__feature {
+    display: inline-block;
+  }
+  &__feature2 {
+    justify-content: space-around;
+  }
 }
 .feature__an {
   text-align: center;
@@ -84,12 +80,15 @@
 }
 .work {
   justify-content: space-around;
+  margin: auto;
+  width: 1200px;
 
   &__title {
     text-align: center;
     margin-top: 50px;
     font-weight: 700;
     margin-bottom: 30px;
+    color: var(--blacklight-color);
   }
   &__label {
     background-color: rgba(47, 48, 58, 0.8);
@@ -103,10 +102,18 @@
     transform: translateY(150%);
   }
 }
+.teamcen {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .team {
+  margin: auto;
+  width: 1200px;
+
   &__name {
     color: var(--blacklight-color);
-    font-weight: 500;
+    font-weight: 700;
     margin-top: 50px;
     text-align: center;
     margin-bottom: 30px;
@@ -126,6 +133,7 @@
 .space__team {
   margin-top: 30px;
   text-align: center;
+  font-weight: 500;
 }
 .icon__linkedin {
   --color3: var(--color-icon);
@@ -168,12 +176,15 @@
 }
 
 .client {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin: auto;
+  width: 1200px;
 
   &__name {
     text-align: center;
     margin-bottom: 50px;
+    color: var(--blacklight-color);
   }
   &__logo {
     border: var(--color-icon) solid 1px;
